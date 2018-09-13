@@ -1,0 +1,18 @@
+.lhs-header
+{
+  position: relative;
+  background: url('genericrobot.jpg') center center no-repeat;
+  background-size: cover;
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
+
+#lhs-header-h1 {
+  text-align: center;
+}
+
+.centert {text-align: center;}
+
+.lhs-info{
+  padding: 30px 30px 30px 30px;
+}
