@@ -3,11 +3,12 @@
   position: relative;
   background: url('genericrobot.jpg') center center no-repeat;
   background-size: cover;
-  padding-top: 25%;
-  padding-bottom: 25%;
+
 }
 
 #lhs-header-h1 {
+  padding-top: 25%;
+  padding-bottom: 25%;
   text-align: center;
 }
 
@@ -15,4 +16,19 @@
 
 .lhs-info{
   padding: 30px 30px 30px 30px;
+}
+
+.noline {
+  text-decoration: none;
+}
+
+#menulogo {
+  width: 15%;
+  height: 15%;
+}
+
+.menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0));
+  color: white;
+
 }
