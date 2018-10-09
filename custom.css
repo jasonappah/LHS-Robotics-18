@@ -1,7 +1,7 @@
 .lhs-header
 {
   position: relative;
-  background: url('genericrobot.jpg') center center no-repeat;
+  background: url('img/IMG_9981.jpg') center center no-repeat;
   background-size: cover;
 
 }
@@ -10,12 +10,16 @@
   padding-top: 25%;
   padding-bottom: 25%;
   text-align: center;
+  color: white;
 }
 
 .centert {text-align: center;}
 
 .lhs-info{
-  padding: 30px 30px 30px 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .noline {
@@ -39,4 +43,50 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.lhs-info2 {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+
+.infoimg {
+  background-color: blue;
+  background-position: center;
+  object-position: 50% 50%;
+  background-size: cover;
+  object-fit: cover;
+  width: auto;
+  height: auto;
+}
+
+#menu-acc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 2.5%;
+  background-color: rgb(33, 150, 243);
+}
+
+#menu-a {
+    font-weight: bold;
+    background-color: rgb(33, 150, 243);
+    border:none;
+    border-bottom-color: #3f51b5;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+}
+
+#menu-a:hover {
+  background-color: blue;
 }

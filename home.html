@@ -3,30 +3,81 @@
 <head>
   <title>____</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="custom.css">
+  <script>
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
 </head>
 
-<body>
+<body class="w3-indigo">
 
+  <button onclick="myFunction('menu-acc')" class="" id="menu-a">
+  Menu  &#9776;</button>
+
+<div id="menu-acc" class="w3-container w3-hide">
+  <a href="#"><h4>Menu Item 1</h4></a>
+  <a href="#"><h4>Menu Item 1</h4></a>
+  <a href="#"><h4>Menu Item 1</h4></a>
+  <a href="#"><h4>Menu Item 1</h4></a>
+</div>
 
   <div class="w3-container lhs-header parallax">
     <div class="w3-bar menu">
-        <img id="menulogo" src="genericrobot.jpg" class="w3-bar-item">
-        <a class="w3-bar-item" href="#"><h4>Menu Item 1</h4></a>
-        <a class="w3-bar-item" href="#"><h4>Menu Item 1</h4></a>
-        <a class="w3-bar-item" href="#"><h4>Menu Item 1</h4></a>
-        <a class="w3-bar-item" href="#"><h4>Menu Item 1</h4></a>
+
+
     </div>
-    <h1 id=lhs-header-h1>Robot here? The image would have a gradient. </h1>
+    <h1 id=lhs-header-h1>Robot here?</h1>
   </div>
 
-<div class="w3-container lhs-info w3-blue">
-  <h3 class="centert">SOME INFORMATION</h3>
-  <p>Tempor conubia congue parturient dis a urna arcu vestibulum ad mattis dignissim a sem tellus mi phasellus ac feugiat dolor vestibulum. Suscipit platea mattis a adipiscing vestibulum suspendisse tempor egestas aliquet sit nisl scelerisque parturient turpis mi urna eget cras vestibulum risus mus. Parturient platea vestibulum nibh semper adipiscing scelerisque molestie ac aliquam adipiscing nullam parturient mauris primis suspendisse ullamcorper parturient vel dictumst parturient tempus vestibulum viverra sed. Adipiscing ut scelerisque ligula ad porta eu aenean ad commodo phasellus a consectetur hendrerit venenatis quisque consectetur neque parturient. Facilisis quis condimentum adipiscing suspendisse vel inceptos aenean nostra lacus ultrices lorem vestibulum consequat fermentum ultrices a ultricies vulputate a consectetur nisi integer ad.</p>
+<div class="w3-container lhs-info w3-cell-row" style="width:100%">
+  <div class="w3-container w3-cell w3-blue lhs-info2 w3-mobile">
+    <h3 class="centert">ABOUT OUR TEAM</h3>
+    <p>Tempor conubia congue parturient dis a urna arcu vestibulum ad mattis dignissim a sem tellus mi phasellus ac feugiat dolor vestibulum. Suscipit platea mattis a adipiscing vestibulum suspendisse tempor egestas aliquet sit nisl scelerisque parturient turpis mi urna eget cras vestibulum risus mus. Parturient platea vestibulum nibh semper adipiscing scelerisque molestie ac aliquam adipiscing nullam parturient mauris primis suspendisse ullamcorper parturient vel dictumst parturient tempus vestibulum viverra sed. Adipiscing ut scelerisque ligula ad porta eu aenean ad commodo phasellus a consectetur hendrerit venenatis quisque consectetur neque parturient. Facilisis quis condimentum adipiscing suspendisse vel inceptos aenean nostra lacus ultrices lorem vestibulum consequat fermentum ultrices a ultricies vulputate a consectetur nisi integer ad.</p>
+  </div>
 </div>
 
-<img src="genericrobot.jpg" width=100% height=25%>
+<img src="img/_MG_0008.JPG" width=100%>
+
+<div class="w3-container lhs-info w3-cell-row" style="width:100%">
+  <div class="w3-container w3-cell w3-blue lhs-info2 w3-mobile">
+    <h3 class="centert">OTHER INFO</h3>
+    <p>Tempor conubia congue parturient dis a urna arcu vestibulum ad mattis dignissim a sem tellus mi phasellus ac feugiat dolor vestibulum. Suscipit platea mattis a adipiscing vestibulum suspendisse tempor egestas aliquet sit nisl scelerisque parturient turpis mi urna eget cras vestibulum risus mus. Parturient platea vestibulum nibh semper adipiscing scelerisque molestie ac aliquam adipiscing nullam parturient mauris primis suspendisse ullamcorper parturient vel dictumst parturient tempus vestibulum viverra sed. Adipiscing ut scelerisque ligula ad porta eu aenean ad commodo phasellus a consectetur hendrerit venenatis quisque consectetur neque parturient. Facilisis quis condimentum adipiscing suspendisse vel inceptos aenean nostra lacus ultrices lorem vestibulum consequat fermentum ultrices a ultricies vulputate a consectetur nisi integer ad.</p>
+  </div>
+</div>
+
+<img src="img/_MG_0032.JPG" width=100%>
+
+<div class="w3-row">
+  <h3 class="centert">Our Team</h3>
+</div>
+
+<div class="w3-row">
+  <div class="w3-col s3 w3-green w3-center"><p>img here</p></div>
+  <div class="w3-col s3 w3-dark-grey w3-center"><p>bio here</p></div>
+  <div class="w3-col s3 w3-green w3-center"><p>img here</p></div>
+  <div class="w3-col s3 w3-dark-grey w3-center"><p>bio here</p></div>
+</div>
+
+<div class="w3-container lhs-info w3-cell-row" style="width:100%">
+  <div class="w3-container w3-cell w3-blue lhs-info2 w3-mobile">
+    <h3 class="centert">OTHER INFO</h3>
+    <p>Tempor conubia congue parturient dis a urna arcu vestibulum ad mattis dignissim a sem tellus mi phasellus ac feugiat dolor vestibulum. Suscipit platea mattis a adipiscing vestibulum suspendisse tempor egestas aliquet sit nisl scelerisque parturient turpis mi urna eget cras vestibulum risus mus. Parturient platea vestibulum nibh semper adipiscing scelerisque molestie ac aliquam adipiscing nullam parturient mauris primis suspendisse ullamcorper parturient vel dictumst parturient tempus vestibulum viverra sed. Adipiscing ut scelerisque ligula ad porta eu aenean ad commodo phasellus a consectetur hendrerit venenatis quisque consectetur neque parturient. Facilisis quis condimentum adipiscing suspendisse vel inceptos aenean nostra lacus ultrices lorem vestibulum consequat fermentum ultrices a ultricies vulputate a consectetur nisi integer ad.</p>
+  </div>
+</div>
+
+<div class="w3-container lhs-info w3-cell-row" style="width:100%">
+  <div class="w3-container w3-cell w3-indigo w3-mobile">
+    <p>2018-19 LHS Robotics - Name????</p>
+  </div>
+</div>
 
 </body>
 </html>
