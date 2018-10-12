@@ -3,6 +3,7 @@
   position: relative;
   background: url('img/IMG_9981.jpg') center center no-repeat;
   background-size: cover;
+  padding-bottom: 25%;
 
 }
 
@@ -89,4 +90,19 @@
 
 #menu-a:hover {
   background-color: blue;
+}
+
+#noundrln:link, #noundrln:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#noundrln:hover {
+  color: #3f51b5;
+  font-weight: bold;
+}
+
+#noundrnln:active {
+  text-decoration: none;
+  color: white;
 }
